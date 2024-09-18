@@ -10,6 +10,7 @@ In this file, I have illustrated the things I would suggest to change in files r
     - Also, `CustomerId` field is missing.
     - I think the change should be `public string CustomerId`
     - Also, we can change the `CustomerDocument` to allow some `nullable` trait or `default` values if necessary.
+    ![CustomerAdded](./images/CustomerModelError.png)
 
 ## Controllers
 
