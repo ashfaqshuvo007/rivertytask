@@ -6,7 +6,7 @@ In this file, I have illustrated the things I would suggest to change in files r
   - Violation of naming convention. `Consume_ValidCustomerAddedMessage_PersistsCustomer` should be the name of the test.
   - I would mock the `IMongoCollection<CustomerDocument>` instead of live connection to ensure test isolation
   - More assertions `CreationDate`, `IsCreationThroughPromo`
-  - Negatice  case tests are missing.
+  - Negative  case tests are missing.
   - Test case for invalid `CustomerId`.
 
 - Missing Tests:
